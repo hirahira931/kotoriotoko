@@ -1,6 +1,6 @@
 #!/bin/bash
 
-keep_days=9  # ツイート保管期間
+keep_days=  # ツイート保管期間
 today=$(date +%Y%m%d)
 targ_day=$(($today-$keep_days-1))
 
